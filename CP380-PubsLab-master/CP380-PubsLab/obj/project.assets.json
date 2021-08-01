@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v5.0": {
+      "Microsoft.EntityFrameworkCore.SqlServer/5.0.7": {
+        "type": "package"
+      }
+    },
+    ".NETFramework,Version=v5.0/win7-x86": {
+      "Microsoft.EntityFrameworkCore.SqlServer/5.0.7": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.EntityFrameworkCore.SqlServer/5.0.7": {
+      "sha512": "xfMz5GfjB/xwafBM27Qjrn9JtJE5EDJpz73caUlVJWfZtNL7fhULFsIiwfx+RpupWqtvFpp9q9OTouJ9UMtWOw==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.sqlserver/5.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll",
+        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.xml",
+        "microsoft.entityframeworkcore.sqlserver.5.0.7.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v5.0": [
+      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Personal\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Personal\\Desktop\\14Jul_Lab_Akhil\\CP380-PubsLab-master\\CP380-PubsLab\\CP380-PubsLab.csproj",
+      "projectName": "CP380-PubsLab",
+      "projectPath": "C:\\Users\\Personal\\Desktop\\14Jul_Lab_Akhil\\CP380-PubsLab-master\\CP380-PubsLab\\CP380-PubsLab.csproj",
+      "packagesPath": "C:\\Users\\Personal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Personal\\Desktop\\14Jul_Lab_Akhil\\CP380-PubsLab-master\\CP380-PubsLab\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Personal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net50": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net50": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[5.0.7, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.SqlServer 5.0.7 is not compatible with net50 (.NETFramework,Version=v5.0). Package Microsoft.EntityFrameworkCore.SqlServer 5.0.7 supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.SqlServer 5.0.7 is not compatible with net50 (.NETFramework,Version=v5.0) / win7-x86. Package Microsoft.EntityFrameworkCore.SqlServer 5.0.7 supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0/win7-x86"
+      ]
+    }
+  ]
+}
